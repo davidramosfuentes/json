@@ -1,0 +1,35 @@
+{
+  "diskSpace": {
+    "status": "UP",
+    "total": 10725883904,
+    "free": 9966530560,
+    "threshold": 10485760
+  },
+  "refreshScope": {
+    "status": "WARN"
+  },
+  "configServer": {
+    "status": "UP",
+    "propertySources": [{
+      "diskSpace": {
+        "status": "UP",
+        "total": 10725883904,
+        "free": 9966530560,
+        "threshold": 10485760
+      },
+      "refreshScope": {
+        "status": "UP"
+      },
+      "configServer": {
+        "status": "CRIT",
+        "propertySources": []
+      },
+      "hystrix": {
+        "status": "UP"
+      }
+    }]
+  },
+  "hystrix": {
+    "status": "UP"
+  }
+}
